@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_magento2_1689164261384-pr-trigger-input-set
+  identifier: Build_magento2_1689164261384prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_magento2_1689164261384
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
